@@ -1,3 +1,24 @@
+# Corne Layout
+![Corne layout](./corne_resources/keyboard-layout.png)
+
+#### [Keyboard designer with this layout](https://kle.klava.org/#/gists/18c4a70291f64920abfe9c4ae67dde72) (./corne_resources/corne-layout.json)
+
+## Setting up the layout
+### Firmware
+```
+git clone https://github.com/MisSero/settings-corne.git
+cd settings-corne
+qmk setup
+
+qmk flash -kb crkbd -km missero
+```
+
+### Vial
+Upload file ./corne_resources/corne.vil in Vial to set the keys as in the layout
+
+---
+---
+---
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
